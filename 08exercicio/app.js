@@ -1,4 +1,4 @@
-var uneDobraRetorna = (...arr) => {
+const uneDobraRetorna = (...arr) => {
   let primeiro = arr[0];
   arr.shift();
   const segundo = arr.map((x) => x * 2);
